@@ -10,9 +10,9 @@ var loseBtn = document.getElementById("loseBtn");
 var enter = document.getElementById("enter");
 var names = new array ();
 enter.onclick = function (){
-  names.push(document.getElementById("name"));
+  names.push(document.getElementById("names"));
   n++; 
-  document.getElementById("name").textContent = " ";
+  document.getElementById("names").textContent = " ";
 }
 winBtn.onclick = function () {
   //player 1 win
